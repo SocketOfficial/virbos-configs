@@ -2,8 +2,9 @@
  * Documentation: https://github.com/davatorium/rofi/wiki
 */
 
+
 configuration {
-	font:							"Iosevka Nerd Font 12";
+	font:							"Roboto mono 11";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     display-drun: 					"";
@@ -20,7 +21,7 @@ window {
     background-color:               @bg;
     text-color:                     @fg;
 	border:							2px;
-	border-color:					@sr;
+	border-color:					@br;
     border-radius:                  20px;
 	height:						    46%;
 	width:							25%;
@@ -55,7 +56,7 @@ inputbar {
     expand:                         false;
 	border:							0% 0% 0% 0%;
     border-radius:                  0px;
-	border-color:					@sr;
+	border-color:					@ac;
     margin:                         0% 0% 0% 0%;
     padding:                        1.5%;
 }
